@@ -1,0 +1,8 @@
+# **********************************Functions in python********************************************
+
+#create function without parameter 
+def greetings():
+    print("Welcome Shubham") 
+
+#call function (use function)
+greetings()

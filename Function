@@ -16,5 +16,20 @@ def add2numbers(a,b):   #parameter (a,b)
 add2numbers(5,3)    #arguments (5,3) 
 
 add2numbers(a=10, b=100) 
-
 add2numbers(b=50, a=10) 
+
+# create a function to add 3 numbers 
+def add3numbers(a,b,c):   #parameter (a,b,c)
+    result = a + b + c
+    print("The sum is: ", result) 
+
+#call above sum function
+add3numbers(5,3, 100)    #arguments (5,3,100) 
+
+# create a function to add 3 numbers 
+def add3numbers(a,b,c):   #parameter (a,b,c)
+    result = a + b + c
+    print("The sum is: ", result) 
+
+#call above sum function
+add3numbers(5,3, 100)    #arguments (5,3,100) 

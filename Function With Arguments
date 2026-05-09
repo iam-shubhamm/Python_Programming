@@ -60,3 +60,12 @@ def greetings2(*names):
 
 greetings2("Shubham", 'Shivam', 'Rohit')
 
+def print_details(**kwargs):
+    # print(type(kwargs))       # dictionary type
+    for key, value in kwargs.items():
+        print(f"{key}: {value}") 
+
+# print_details(name = "Shubham", age = 24, city = "Buxar")
+
+print_details(name = "Shubham", age = 24)
+

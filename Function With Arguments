@@ -1,0 +1,14 @@
+#*************************************Arguments in Functions*************************************** 
+
+# Required Arguments (single/multiple arguments)
+
+def greetings(name):        # name is parameter
+    print("Hello ", name, "!") 
+
+greetings("Shubham")     # Shubham is argument 
+greetings()       # required an argument to run code
+
+def intro(course_name, instructor_name):
+    print("Welcome to ", course_name, instructor_name)
+
+intro("Python", "Shubham")

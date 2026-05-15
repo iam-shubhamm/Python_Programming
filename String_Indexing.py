@@ -53,3 +53,48 @@ print(" \'kw-single Quotes\' ") # single quote using \
 
 print("Hello\nWorld")       # new line
 print("Hello\tWorld")       # tab - space 
+
+# String Operators in Python 
+a = "Hello"
+b = "Python"
+
+print(a+b)      # concatenate 
+print(a*2)      # multiple copies 
+# [] - slice, [:] - range  -- scroll below
+
+if "h" in a:
+    print("Yess")
+else:
+    print("noo")
+
+    
+if "h" not in a:
+    print("Yess")
+else:
+    print("noo") 
+
+print(r"Hello\nWorld")  # Raw string: suppress the escape chars 
+
+
+# String Indexing
+
+my_name = "Shubham"
+# index:   012345
+
+print(my_name[0])       # first character of str 
+print(my_name[1])       # second character of str 
+print(my_name[2])       # third character of str 
+print(my_name[3])       # fourth character of str 
+print(my_name[4])       # fifth character of str 
+print(my_name[5])       # sixth character of str 
+print(my_name[-1]) 
+
+name2   =  "Hello World"
+# index:    012345678910
+# -ve index:1110987654321 -
+print(name2[5])     # blank space is also a char
+print(name2[-1])    # last char from str
+print(name2[-3])    # 3rd last char from str 
+
+
+

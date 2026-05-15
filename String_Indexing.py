@@ -94,7 +94,80 @@ name2   =  "Hello World"
 # -ve index:1110987654321 -
 print(name2[5])     # blank space is also a char
 print(name2[-1])    # last char from str
-print(name2[-3])    # 3rd last char from str 
+print(name2[-3])    # 3rd last char from str
+
+# String Slicing  
+
+# syntax: string[start : end : step]
+
+my_name = "Shubham"
+# index:   0123456 
+
+print(my_name[0:3])     # default step = 1
+print(my_name[0:3:1]) 
+
+print(my_name[0:6:1]) 
+
+print(my_name[3:6:1]) 
+
+print(my_name[0:6:2])   # step = 2
+
+print(my_name[0:6:3])   # step = 3
+
+print(my_name[0:6:4])   # step = 4 
+
+print(my_name[0:2])        # first 2 chars
+print(my_name[0:3])        # first 3 chars
+print(my_name[2:6])        # third to fifth chars
+print(my_name[1:4])        # second to fourth chars
+print(my_name[-1:])        # last char of str
+print(my_name[5:])         # last char of str
+print(my_name[-2:])        # last 2 char of str
+print(my_name[-3:])        # last 3 char of str
+print(my_name[0::2])       # every second char
+print(my_name[:])          # all char
+print(my_name[::])         # all char 
+print(my_name[::-1])       # reverse the string 
+
+
+# String Methods
+
+word = "Hello, Shubham" 
+
+#1. len()
+print(len(word)) 
+
+#2. upper()
+print(word.upper())
+
+#3. lower()
+print(word.lower())
+
+#4. count()
+print(word.count('M')) 
+
+#5. find()
+print(word.find('e'))
+
+#6. Split()
+print(word.split(','))
+print(word.split()) 
+
+#7. Replace()
+print(word.replace("Shubham", "Singh")) 
+
+#8. title()
+print(word.title()) 
+
+#9. strip()
+word2 = "  Hello World   "
+print(len(word2))
+print(word2.strip()) 
+
+#10. join()
+zwords = ("Shubham", "is", "Papa")
+print(" ".join(zwords))
+print("-".join(zwords))
 
 
 

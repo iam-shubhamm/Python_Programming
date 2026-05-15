@@ -35,3 +35,45 @@ print("My name is {0} and I'm {1}".format(name, age))
 print("My name is {1} and I'm {0}".format(name, age))
 
 print("My name is {name} and I'm {age}".format(name="Shivam", age="19"))
+
+#3. f-strings - my fav
+
+name = "Shubham"
+age = 24
+print(f"My name is {name} and I'm {age}")
+
+print(f"My age after 5 years will be {age + 5}") 
+
+
+# Escape Characters - backslash with chars 
+print(''' "kw-double Quotes" ''') 
+
+print(" \"kw-double Quotes\" ")  # double quotes using \
+
+print(" \'kw-single Quotes\' ") # single quote using \
+
+print("Hello\nWorld")       # new line
+print("Hello\tWorld")       # tab - space 
+
+
+# String Operators in Python 
+a = "Hello"
+b = "Python"
+
+print(a+b)      # concatenate 
+print(a*2)      # multiple copies 
+# [] - slice, [:] - range  -- scroll below
+
+if "h" in a:
+    print("Yess")
+else:
+    print("noo")
+
+    
+if "h" not in a:
+    print("Yess")
+else:
+    print("noo") 
+
+print(r"Hello\nWorld")  # Raw string: suppress the escape chars 
+
